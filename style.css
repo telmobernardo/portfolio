@@ -15,6 +15,7 @@
 /* rolagem suave */
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 
 body {
@@ -217,7 +218,7 @@ body {
 
 /*PROJETOS*/
 #img {
-    width: 450px;
+    width: 100%;
     height: 200px;
 }
 
@@ -289,34 +290,6 @@ body {
 
 .contact-list small {
     color: #8fa5bd;
-}
-
-.contact-form {
-    padding: 25px;
-    background: rgba(7, 24, 42, .9);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-}
-
-.form-label {
-    color: white;
-}
-
-.form-control {
-    background: var(--bg-input);
-    border: 1px solid rgba(60, 145, 220, .25);
-    color: white;
-    padding: 12px;
-}
-
-.form-control::placeholder {
-    color: #71859c;
-}
-
-.form-control:focus {
-    background: var(--bg-input);
-    color: white;
-    border-color: var(--blue);
 }
 
 /*RODAPE*/
